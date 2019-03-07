@@ -1,0 +1,34 @@
+{
+  "name": "pajak-online",
+  "version": "1.0.0",
+  "description": "Test Coding Pajak Online",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js",
+    "full-test": "NODE_ENV=test karma start karma.conf.js"
+  },
+  "keywords": [
+    "pajak-online"
+  ],
+  "author": "Zainal Arifin",
+  "license": "ISC",
+  "dependencies": {
+    "prototype": "0.0.5",
+    "requirejs": "^2.3.6"
+  },
+  "devDependencies": {
+    "chai": "^2.1.0",
+    "istanbul": "^0.3.6",
+    "jshint": "^2.6.0",
+    "karma": "^4.0.1",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-cli": "0.0.4",
+    "karma-coverage": "^1.1.2",
+    "karma-fixture": "^0.2.1-1",
+    "karma-html2js-preprocessor": "^0.1.0",
+    "karma-mocha": "^0.1.10",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "mocha": "^6.0.2"
+  }
+}

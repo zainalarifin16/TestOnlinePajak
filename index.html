@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculate Personal Tax in Indonesia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <form id="formCalculate" >
+        Penghasilan Perbulan : <input name="income" id="income" ><br/>
+        Status Kawin : 
+        <select name="status" id="status" >
+        </select><br/>
+        <input type="submit" name="calculate" value="Calculate" id="calculate" >
+    </form>
+
+    <table>
+        <tr>
+            <td> Income </td>
+            <td> <input name="tb_income" id="tb_income" readonly > </td>
+        </tr>
+        <tr>
+            <td> Annual Income </td>
+            <td> <input name="tb_annualincome" id="tb_annualincome" readonly > </td>
+        </tr>
+        <tr>
+            <td> Tax Relief </td>
+            <td> <input name="tb_taxrelief" id="tb_taxrelief" readonly > </td>
+        </tr>
+        <tr>
+            <td> Taxable income </td>
+            <td> <input name="tb_taxableincome" id="tb_taxableincome" readonly > </td>
+        </tr>
+        <tr>
+            <td> Tax Income </td>
+            <td> <input name="tb_taxincome" id="tb_taxincome" readonly > </td>
+        </tr>
+        <tr>
+            <td> Tax Income Monthly </td>
+            <td> <input name="tb_taxincome" id="tb_taxincomemonthly" readonly > </td>
+        </tr>
+    </table>
+
+
+</body>
+<script src="lib/main.js"></script>
+<script>
+    (function () {
+
+        taxcalculator.init();
+
+    })();
+</script>
+</html>
